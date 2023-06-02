@@ -13,6 +13,7 @@ body {
     font-family: "Inter";
     padding: 16px;
     text-align: center;
+    cursor: none;
 }
 
 /* <hr> styles */
@@ -22,6 +23,16 @@ body {
     width: 70%;
     margin-left: 15%;
     margin-top: 8px;
+}
+
+#cursor {
+    background: linear-gradient(165deg, #fdfdfd, #aaa);
+    border: 1px solid #0a0a0a;
+    width: 16px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    transform: translate(-50% -50%);
+    border-radius: 50%;
 }
 
 /* Navigation stylings */
