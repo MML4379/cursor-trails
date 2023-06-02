@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    cursor: none;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     font-family: "Inter";
     padding: 16px;
     text-align: center;
-    cursor: hidden;
+    cursor: none;
 }
 
 /* <hr> styles */
@@ -33,6 +34,7 @@ body {
     position: absolute;
     transform: translate(-50% -50%);
     border-radius: 50%;
+    cursor: none;
 }
 
 /* Navigation stylings */
