@@ -15,6 +15,7 @@ body {
     padding: 16px;
     text-align: center;
     cursor: none;
+    overflow: hidden;
 }
 
 /* <hr> styles */
