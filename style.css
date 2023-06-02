@@ -13,7 +13,7 @@ body {
     font-family: "Inter";
     padding: 16px;
     text-align: center;
-    cursor: none;
+    cursor: hidden;
 }
 
 /* <hr> styles */
@@ -28,7 +28,7 @@ body {
 #cursor {
     background: linear-gradient(165deg, #fdfdfd, #aaa);
     border: 1px solid #0a0a0a;
-    width: 16px;
+    width: 24px;
     aspect-ratio: 1/1;
     position: absolute;
     transform: translate(-50% -50%);
