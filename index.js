@@ -10,4 +10,14 @@ window.addEventListener('mousemove', (e) => {
     }, {fill: "forwards"});
     cursorX.textContent = clientX;
     cursorY.textContent = clientY;
+    
+    window.addEventListener('keydown', (e) => {
+    if (e.keyCode === "space") {
+        clientX = 690;
+        clientY = 690;
+        cursor.style.left = 690;
+        cursor.style.top = 690;    
+    }
+})
 });
+
