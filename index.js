@@ -11,7 +11,7 @@ window.addEventListener('mousemove', (e) => {
     }, {fill: "forwards"});
     cursorX.textContent = clientX;
     cursorY.textContent = clientY;
-    emojis.textContent = makeid(15);
+    emojis.innerHTML = `<div><div><div><div><div><div><div><div>${makeid(10)}</div></div></div></div></div></div></div></div>`
     emojis.animate({
         left: `${clientX}px`,
         top: `${clientY}px`
