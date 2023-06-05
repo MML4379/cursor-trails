@@ -38,4 +38,9 @@ body {
     cursor: none;
 }
 
+#emojis {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
 /* Navigation stylings */
